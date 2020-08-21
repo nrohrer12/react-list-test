@@ -1,0 +1,34 @@
+.listview-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.header-column {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.header-column:hover {
+  opacity: .8;
+  color: darkslateblue;
+}
+
+.player-column {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
